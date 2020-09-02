@@ -36,6 +36,7 @@ include "spring-webmvc"
 include "spring-websocket"
 include "framework-bom"
 include "integration-tests"
+include "imty-spring-cglib1"
 
 rootProject.name = "spring"
 rootProject.children.each {project ->
@@ -62,3 +63,6 @@ settings.gradle.projectsLoaded {
 		}
 	}
 }
+include 'imty-spring-cglib1'
+include 'imty-spring-cglib1'
+
