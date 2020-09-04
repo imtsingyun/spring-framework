@@ -90,7 +90,7 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
 	public AnnotationConfigApplicationContext(Class<?>... componentClasses) {
 		// 调用构造器
 		this();
-		// TODO: 设置不允许循环依赖
+		// TYTODO: 设置不允许循环依赖
 //		setAllowCircularReferences(false);
 		register(componentClasses);
 		refresh();

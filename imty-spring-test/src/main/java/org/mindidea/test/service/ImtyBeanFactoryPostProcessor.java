@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 /**
  * 对 Spring Bean 进行扩展增强
  */
-@Component
+//@Component
 public class ImtyBeanFactoryPostProcessor implements BeanFactoryPostProcessor {
 
 	@Override
