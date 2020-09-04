@@ -180,6 +180,7 @@ public class DefaultSingletonBeanRegistry extends SimpleAliasRegistry implements
 	protected Object getSingleton(String beanName, boolean allowEarlyReference) {
 		// Quick check for existing instance without full singleton lock
 		Object singletonObject = this.singletonObjects.get(beanName);
+		// TODO:
 		if (singletonObject == null && isSingletonCurrentlyInCreation(beanName)) {
 			singletonObject = this.earlySingletonObjects.get(beanName);
 			if (singletonObject == null && allowEarlyReference) {
@@ -331,11 +332,13 @@ public class DefaultSingletonBeanRegistry extends SimpleAliasRegistry implements
 		return (!this.inCreationCheckExclusions.contains(beanName) && isActuallyInCreation(beanName));
 	}
 
+	// 判断bean是否在创建过程中
 	protected boolean isActuallyInCreation(String beanName) {
 		return isSingletonCurrentlyInCreation(beanName);
 	}
 
 	/**
+	 * // 判断bean是否在创建过程中
 	 * Return whether the specified singleton bean is currently in creation
 	 * (within the entire factory).
 	 * @param beanName the name of the bean

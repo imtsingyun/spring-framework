@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'org.springframework'
+group 'org.mindidea'
 version '0.0.1-SNAPSHOT'
 
 repositories {
@@ -10,5 +10,6 @@ repositories {
 }
 
 dependencies {
+    compile(project(":spring-context"))
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
