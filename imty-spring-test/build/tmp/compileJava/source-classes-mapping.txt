@@ -1,16 +1,16 @@
 org/mindidea/test/Test.java
  org.mindidea.test.Test
-org/mindidea/factorybean/Test.java
- org.mindidea.factorybean.Test
-org/mindidea/factorybean/CarFactoryBean.java
- org.mindidea.factorybean.CarFactoryBean
+org/mindidea/test/service/IndexService.java
+ org.mindidea.test.service.IndexService
+org/mindidea/test/config/AppConfig.java
+ org.mindidea.test.config.AppConfig
 org/mindidea/test/service/UserService.java
  org.mindidea.test.service.UserService
 org/mindidea/test/entity/Car.java
  org.mindidea.test.entity.Car
 org/mindidea/test/service/ImtyBeanFactoryPostProcessor.java
  org.mindidea.test.service.ImtyBeanFactoryPostProcessor
-org/mindidea/test/config/AppConfig.java
- org.mindidea.test.config.AppConfig
-org/mindidea/test/service/IndexService.java
- org.mindidea.test.service.IndexService
+org/mindidea/factorybean/CarFactoryBean.java
+ org.mindidea.factorybean.CarFactoryBean
+org/mindidea/factorybean/Test.java
+ org.mindidea.factorybean.Test

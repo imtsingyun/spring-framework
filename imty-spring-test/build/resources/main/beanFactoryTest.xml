@@ -5,6 +5,7 @@
                http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="car" class="org.mindidea.test.entity.Car" />
+
     <bean id="car2" class="org.mindidea.factorybean.CarFactoryBean">
 		<property name="carInfo" value="BMW, 500, 20000" />
 	</bean>

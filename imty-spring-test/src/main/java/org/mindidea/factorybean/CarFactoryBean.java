@@ -34,4 +34,11 @@ public class CarFactoryBean implements FactoryBean<Car> {
 	public boolean isSingleton() {
 		return false;
 	}
+
+	@Override
+	public String toString() {
+		return "CarFactoryBean{" +
+				"carInfo='" + carInfo + '\'' +
+				'}';
+	}
 }
