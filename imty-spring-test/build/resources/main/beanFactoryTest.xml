@@ -9,4 +9,17 @@
     <bean id="car2" class="org.mindidea.factorybean.CarFactoryBean">
 		<property name="carInfo" value="BMW, 500, 20000" />
 	</bean>
+
+	<bean id="a" class="org.mindidea.circle.TestA">
+		<constructor-arg index="0" ref="b"/>
+	</bean>
+
+	<bean id="b" class="org.mindidea.circle.TestB">
+		<constructor-arg index="0" ref="c"/>
+	</bean>
+
+	<bean id="c" class="org.mindidea.circle.TestC">
+<!--		<constructor-arg index="0" ref="a"/>-->
+	</bean>
+
 </beans>

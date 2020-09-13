@@ -1,5 +1,5 @@
-org/mindidea/test/Test.java
- org.mindidea.test.Test
+org/mindidea/factorybean/CarFactoryBean.java
+ org.mindidea.factorybean.CarFactoryBean
 org/mindidea/test/service/IndexService.java
  org.mindidea.test.service.IndexService
 org/mindidea/test/config/AppConfig.java
@@ -10,7 +10,15 @@ org/mindidea/test/entity/Car.java
  org.mindidea.test.entity.Car
 org/mindidea/test/service/ImtyBeanFactoryPostProcessor.java
  org.mindidea.test.service.ImtyBeanFactoryPostProcessor
-org/mindidea/factorybean/CarFactoryBean.java
- org.mindidea.factorybean.CarFactoryBean
+org/mindidea/test/Test.java
+ org.mindidea.test.Test
 org/mindidea/factorybean/Test.java
  org.mindidea.factorybean.Test
+org/mindidea/circle/TestB.java
+ org.mindidea.circle.TestB
+org/mindidea/circle/TestC.java
+ org.mindidea.circle.TestC
+org/mindidea/circle/TestMain.java
+ org.mindidea.circle.TestMain
+org/mindidea/circle/TestA.java
+ org.mindidea.circle.TestA

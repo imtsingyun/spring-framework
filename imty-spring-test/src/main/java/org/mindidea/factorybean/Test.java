@@ -3,12 +3,17 @@ package org.mindidea.factorybean;
 import org.mindidea.test.entity.Car;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.core.io.ClassPathResource;
 
 public class Test {
 
 	public static void main(String[] args) {
-//		ApplicationContext context = new ClassPathXmlApplicationContext("beanFactoryTest.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("beanFactoryTest.xml");
+		Object car21 = context.getBean("&car2");
+		System.out.println(car21);
+
 		ClassPathResource resource = new ClassPathResource("beanFactoryTest.xml");
 		DefaultListableBeanFactory beanFactory = new DefaultListableBeanFactory();
 		XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(beanFactory);

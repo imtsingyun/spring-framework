@@ -165,6 +165,7 @@ public class DefaultSingletonBeanRegistry extends SimpleAliasRegistry implements
 	@Override
 	@Nullable
 	public Object getSingleton(String beanName) {
+		// TYTODO: 参数 true 设置标识允许早期依赖
 		return getSingleton(beanName, true);
 	}
 
@@ -179,8 +180,8 @@ public class DefaultSingletonBeanRegistry extends SimpleAliasRegistry implements
 	@Nullable
 	protected Object getSingleton(String beanName, boolean allowEarlyReference) {
 		// Quick check for existing instance without full singleton lock
+		// TYTODO: 检查 singletonObjects 缓存中是否存在实例
 		Object singletonObject = this.singletonObjects.get(beanName);
-		// TYTODO:
 		if (singletonObject == null && isSingletonCurrentlyInCreation(beanName)) {
 			singletonObject = this.earlySingletonObjects.get(beanName);
 			if (singletonObject == null && allowEarlyReference) {
