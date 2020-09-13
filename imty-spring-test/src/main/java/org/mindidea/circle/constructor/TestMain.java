@@ -1,4 +1,4 @@
-package org.mindidea.circle;
+package org.mindidea.circle.constructor;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

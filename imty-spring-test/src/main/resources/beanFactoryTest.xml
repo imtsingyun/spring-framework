@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans
-               http://www.springframework.org/schema/beans/spring-beans.xsd">
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+               http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
 
     <bean id="car" class="org.mindidea.test.entity.Car" />
 
@@ -10,16 +10,18 @@
 		<property name="carInfo" value="BMW, 500, 20000" />
 	</bean>
 
-	<bean id="a" class="org.mindidea.circle.TestA">
+	<bean id="a" class="org.mindidea.circle.constructor.TestA">
 		<constructor-arg index="0" ref="b"/>
 	</bean>
 
-	<bean id="b" class="org.mindidea.circle.TestB">
+	<bean id="b" class="org.mindidea.circle.constructor.TestB">
 		<constructor-arg index="0" ref="c"/>
 	</bean>
 
-	<bean id="c" class="org.mindidea.circle.TestC">
+	<bean id="c" class="org.mindidea.circle.constructor.TestC">
 		<constructor-arg index="0" ref="a"/>
 	</bean>
+
+
 
 </beans>

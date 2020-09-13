@@ -14,11 +14,19 @@ org/mindidea/test/Test.java
  org.mindidea.test.Test
 org/mindidea/factorybean/Test.java
  org.mindidea.factorybean.Test
-org/mindidea/circle/TestB.java
- org.mindidea.circle.TestB
-org/mindidea/circle/TestC.java
- org.mindidea.circle.TestC
-org/mindidea/circle/TestMain.java
- org.mindidea.circle.TestMain
-org/mindidea/circle/TestA.java
- org.mindidea.circle.TestA
+org/mindidea/circle/constructor/TestB.java
+ org.mindidea.circle.constructor.TestB
+org/mindidea/circle/setter/TestB.java
+ org.mindidea.circle.setter.TestB
+org/mindidea/circle/constructor/TestC.java
+ org.mindidea.circle.constructor.TestC
+org/mindidea/circle/setter/TestA.java
+ org.mindidea.circle.setter.TestA
+org/mindidea/circle/constructor/TestA.java
+ org.mindidea.circle.constructor.TestA
+org/mindidea/circle/setter/TestC.java
+ org.mindidea.circle.setter.TestC
+org/mindidea/circle/setter/TestMain.java
+ org.mindidea.circle.setter.TestMain
+org/mindidea/circle/constructor/TestMain.java
+ org.mindidea.circle.constructor.TestMain
