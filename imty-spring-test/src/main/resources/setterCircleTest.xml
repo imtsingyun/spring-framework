@@ -15,7 +15,4 @@
 	<bean id="c" class="org.mindidea.circle.setter.TestC">
 		<property name="a" value="a"/>
 	</bean>
-
-
-
 </beans>
