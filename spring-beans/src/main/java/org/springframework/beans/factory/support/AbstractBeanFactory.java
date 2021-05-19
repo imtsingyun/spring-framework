@@ -249,12 +249,12 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
 			String name, @Nullable Class<T> requiredType, @Nullable Object[] args, boolean typeCheckOnly)
 			throws BeansException {
 
-		// TYTODO: 重点，验证 beanName
+		// TYTODO: 重点，beanName
 		String beanName = transformedBeanName(name);
 		Object bean;
 
-		// TYTODO: 重点，循环依赖
-		// 尝试从 singleObjects 缓存中获取实例
+		// TYTODO: 重点，循环yilai
+		// 尝试 singleObjects 缓存中获取实
 		// Eagerly check singleton cache for manually registered singletons.
 		Object sharedInstance = getSingleton(beanName);
 		if (sharedInstance != null && args == null) {

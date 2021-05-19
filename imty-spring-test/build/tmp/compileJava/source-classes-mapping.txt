@@ -1,32 +1,36 @@
-org/mindidea/factorybean/CarFactoryBean.java
- org.mindidea.factorybean.CarFactoryBean
-org/mindidea/test/service/IndexService.java
- org.mindidea.test.service.IndexService
-org/mindidea/test/config/AppConfig.java
- org.mindidea.test.config.AppConfig
-org/mindidea/test/service/UserService.java
- org.mindidea.test.service.UserService
-org/mindidea/test/entity/Car.java
- org.mindidea.test.entity.Car
-org/mindidea/test/service/ImtyBeanFactoryPostProcessor.java
- org.mindidea.test.service.ImtyBeanFactoryPostProcessor
-org/mindidea/test/Test.java
- org.mindidea.test.Test
-org/mindidea/factorybean/Test.java
- org.mindidea.factorybean.Test
 org/mindidea/circle/constructor/TestB.java
  org.mindidea.circle.constructor.TestB
-org/mindidea/circle/setter/TestB.java
- org.mindidea.circle.setter.TestB
-org/mindidea/circle/constructor/TestC.java
- org.mindidea.circle.constructor.TestC
+org/mindidea/demo01/User.java
+ org.mindidea.demo01.User
+org/mindidea/test/Test.java
+ org.mindidea.test.Test
 org/mindidea/circle/setter/TestA.java
  org.mindidea.circle.setter.TestA
+org/mindidea/demo01/Main.java
+ org.mindidea.demo01.Main
+org/mindidea/test/service/UserService.java
+ org.mindidea.test.service.UserService
+org/mindidea/test/service/IndexService.java
+ org.mindidea.test.service.IndexService
+org/mindidea/circle/constructor/TestMain.java
+ org.mindidea.circle.constructor.TestMain
+org/mindidea/circle/setter/TestB.java
+ org.mindidea.circle.setter.TestB
+org/mindidea/factorybean/Test.java
+ org.mindidea.factorybean.Test
+org/mindidea/circle/constructor/TestC.java
+ org.mindidea.circle.constructor.TestC
+org/mindidea/factorybean/CarFactoryBean.java
+ org.mindidea.factorybean.CarFactoryBean
 org/mindidea/circle/constructor/TestA.java
  org.mindidea.circle.constructor.TestA
 org/mindidea/circle/setter/TestC.java
  org.mindidea.circle.setter.TestC
+org/mindidea/test/entity/Car.java
+ org.mindidea.test.entity.Car
+org/mindidea/test/service/ImtyBeanFactoryPostProcessor.java
+ org.mindidea.test.service.ImtyBeanFactoryPostProcessor
+org/mindidea/test/config/AppConfig.java
+ org.mindidea.test.config.AppConfig
 org/mindidea/circle/setter/TestMain.java
  org.mindidea.circle.setter.TestMain
-org/mindidea/circle/constructor/TestMain.java
- org.mindidea.circle.constructor.TestMain
